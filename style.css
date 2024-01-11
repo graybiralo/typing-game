@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    color: #418170;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#quote {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #418170;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #305a4b;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+#error {
+    background-color: lightcoral;
+    border: 1px solid red;
+}
+
+#success {
+    color: #4caf50;
+}
+h1{
+    font-family: 'Arial', sans-serif;
+    color: rgb(65, 129, 108);
+}
+
+.highlight {
+    background-color: yellow;
+}
+  
+.error {
+    background-color: lightcoral;
+    border: 1px solid red;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Typing Game</h1>
+        </header>
+        <main>
+            <p>Practice your typing skills with quotes from Sherlock Holmes and Amit Pariyar. Click <strong>Start</strong> to begin!</p>
+            <p id="quote" class="quote"></p>
+            <p id="message" class="message"></p>
+            <div class="input-container">
+                <input type="text" aria-label="current word" id="typed-value" placeholder="Type the words here" />
+                <button type="button" id="start">Start</button>
+            </div>
+        </main>
+    </div>
+    <div id="modal" class="modal">
+        <p id="modal-message"></p>
+        <button onclick="closeModal()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
